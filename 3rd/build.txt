@@ -3,6 +3,14 @@
 git clone git://git.ffmpeg.org/rtmpdump
 °æ±¾2.4
 
+XCFLAGS += -I/home/wang/NFS/h264/openssl-1.0.1u/000/include
+
+XCFLAGS += -I/home/wang/NFS/h264/zlib-1.2.11/000/include
+
+XLDFLAGS += -L/home/wang/NFS/h264/openssl-1.0.1u/000/lib
+
+XLDFLAGS += -L/home/wang/NFS/h264/zlib-1.2.11/000/lib
+
 
 
 [ OPENSSL ]
