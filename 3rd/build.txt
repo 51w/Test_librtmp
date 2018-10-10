@@ -1,0 +1,30 @@
+> === <
+
+git clone git://git.ffmpeg.org/rtmpdump
+版本2.4
+
+
+
+[ OPENSSL ]
+
+下载解压后先阅读 README 和INSTALL 文档
+
+1.0.1成功
+
+# ./config no-asm shared --prefix=$PWD/000
+# make
+# make install
+
+
+[ zlib ]
+
+# ./configure --prefix=./000
+# make
+# make install
+
+
+[ rtmp ]
+
+>>修改Makefile两个
+
+prefix=./000
